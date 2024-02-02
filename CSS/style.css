@@ -27,7 +27,6 @@ nav {
 
 .mainnav {
     width: 73%;
-    padding: 1%;
 }
 
 nav a {
@@ -53,7 +52,6 @@ ul {
     color: #272838;
     text-align: center;
     padding: 20px;
-    margin-top: 150px;
 }
 
 .logo {
