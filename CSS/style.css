@@ -184,3 +184,46 @@ footer ul {
 footer li {
     padding: 0 10px;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .flexContainer {
+        flex-direction: column;
+    }
+
+    .flexChild {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .grid-container {
+        grid-template-areas:
+            'myArea'
+            'myArea'
+            'myArea'
+            'myArea'
+            'myArea';
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-columns: 1fr;
+    }
+
+    .heroImg {
+        margin-bottom: 30px;
+    }
+
+    .header-text {
+        margin-top: 50px; 
+    }
+
+    p {
+        max-width: 100%; 
+    }
+
+    button {
+        margin-top: 20px; 
+    }
+
+    footer {
+        padding: 20px; 
+    }
+}
